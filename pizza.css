@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 230px;
+  padding: 20px;
+  border-right: 2px solid #ddd;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #ff5722;
+  color: #fff;
+  border: none;
+}
+
+/* MAIN CONTENT */
+.content {
+  padding: 20px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* GRID SHARED */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* TOP SECTION */
+.top .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.top .grid > div {
+  background: #ff5722;
+  color: white;
+  padding: 18px;
+  text-align: center;
+}
+
+.top img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.top button {
+  margin-top: 10px;
+  padding: 7px;
+  border: none;
+  background: #fff;
+}
+
+/* MID SECTION */
+.mid-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mid-grid > div {
+  padding: 18px;
+  text-align: center;
+  border: 1px solid #aaa;
+  background: #fafafa;
+}
+
+.mid-grid img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* BOTTOM SECTION */
+.bottom {
+  margin-top: 40px;
+}
+
+.phones {
+  display: flex;
+  gap: 20px;
+}
+
+.phones img {
+  width: 240px;
+}
+
+.stores {
+  margin-top: 25px;
+}
+
+.stores img {
+  margin-right: 10px;
+}
